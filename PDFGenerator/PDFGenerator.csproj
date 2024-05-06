@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>PDFGenerator.Cognine</AssemblyName>
+    <RootNamespace>PDFGenerator.Cognine</RootNamespace>
+    <FileVersion>1.0.0.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="Razor.Templating.Core" Version="2.0.0" />
+    <PackageReference Include="Syncfusion.HtmlToPdfConverter.Net.Windows" Version="25.1.42" />
+  </ItemGroup>
+
+</Project>
